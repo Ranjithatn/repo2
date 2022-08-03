@@ -1,5 +1,5 @@
 import { AuthController } from '../authController';
-import { CardsReader } from '@digitalpersona/devices';
+import { CardsReader } from '@digitalpersona/devices';;;
 import { Credential, User, JWT, ClaimName } from '@digitalpersona/core';
 
 export default class CardsAuthController extends AuthController
